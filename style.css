@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+ body{
+     font-family: 'Advent Pro',sans-serif;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ 
+ h2{
+     text-transform: uppercase;
+     text-align: inherit ;
+     padding-top: 30px;
+     color:red;
+     padding: 0px 10%
+ }
+ h3{
+     color: #68193eb6;
+ }
+ h4{
+     color: cadetblue;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ div a {
+     color: blue;
+ }
+ header ul {
+margin:0;
+padding: 0%;
+ }
+ header li {
+     list-style-type: none;
+ }
+ /* ************************NAVBAR***************** */
+  nav {
+      overflow: hidden;
+      background-color: #FFFAE1;
+      position: fixed;
+      width: 100%;
+      opacity: 0.9;
+  }
+  header li {
+      float: right;
+      font-size: 1.2em;
+  }
+  header li a {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding:18px 16px
+  }
+  #logo {
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+      float: left;
+  }
+  /* ************IMAGE PRIESENTATIF ******************* */
+  #imagepresentatif {
+      Padding-top: 60px;
+      background: url(ana2.jpeg) no-repeat 60% 37%;
+      background-size: cover;
+      height: 800px;
+  }
+/* ************PRESENTATION************ */
+#presentation {
+background-color: #FFFAE1;
+padding: 10px 0px 100px 0;
+}
+#textIntro{
+    padding: 0px 20%
+}
+#textIntro1{
+    padding: 0px 20%
+}
+/* *********************CONTACT************ */
+#contact{
+    background-color: #524A3A;
+    color: #FFFAE1 ;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width:55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font: size 1.2em;
+    font-family:'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height:120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover{
+    background-color: #e55039;
+    color: #FFFAE1;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait{
+    height:1px;
+width: 75%;
+background-color: #FFFAE1;
+margin: 60px auto;
+}
+#icons{
+    display: flex;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: right;
+    padding: 0 10%;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
